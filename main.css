@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.nav {
+  font-size: 28px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(192, 55, 17);
+  margin: 25px;
+  padding: 18px;
+}
+
+.nav a {
+  color:midnightblue;
+  text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #31B0D5;
+}
+
+
+h1 {
+  text-align: center;
+  color: rgb(50, 50, 201);
+  padding: 8px;
+  size: 1px;
+  margin: 8px;
+}
+
+
+h2 {
+  text-align: center;
+  color:indigo;
+  padding: 8px;
+  size: 1px;
+  margin: 8px;
+}
+
+
+#emailid {
+  text-align: left;
+  color: rgb(80, 180, 50);
+  padding: 5px;
+  size: 1px;
+  margin: 5px;
+}
+
+
+.email {
+  text-align:justify;
+  padding: 25px;
+  color:rgb(192, 55, 17)
+}
+
+
+#interest {
+  font-style: italic;
+}
+
+
+#jumptotop {
+  background-color: #ff5100;
+  size: 10px;
+}
+
+
+.lastpara {
+  padding: 5px;
+  border: black;
+  size: 1px;
+  margin: 5px;
+  background-color: #cf9aa3;
+  color: #f7081c;
+  font-style: italic;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  filter: opacity(0.8);
+}
+
+
+.aboutme p {
+  padding: 8px;
+  border: black;
+  border-style: solid;
+  size: 1px;
+  margin: 10px;
+  background-color: rgb(160, 90, 70);
+  color: hsl(335, 66%, 51%);
+}
+
+
+p {
+  padding: 5px;
+  border: black;
+  size: 1px;
+  margin: 5px;
+  background-color: #cf9aa3;
+  color: rgb(216, 22, 38);
+  font-family:'Barlow', sans-serif;;
+}
+
+
+.background {
+  background-image: url(images.html/Nature.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
